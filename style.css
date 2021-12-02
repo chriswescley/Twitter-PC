@@ -21,9 +21,9 @@ a {
 nav {
     margin-left: 18%;
     margin-top: 15px;
-    width: 300px;
+    width: 250px;
     position: fixed;
-    border-right: 1px solid rgb(238, 238, 238);
+    border-right: 1px solid #F2F2F2;
     border-top: -30px;
 }
 .selected {
@@ -66,28 +66,118 @@ nav img {
     font-weight: 700;
     background-color: #FF7A01;
     width: 230px;
-    height: 55px;
+    height: 50px;
     border-radius: 50px;
     margin-left: -15px;
     margin-top: 10px;
 }
 
+.tweetButton:hover {
+    cursor: pointer;
+}
+
 .profileSelection {
     display: flex;
     flex-direction: row;
-    margin-top: 270px;
+    padding-left: 10px;
 }
 
 #userInfos {
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right: 100px;
+    text-align: left;
 }
 
 .ProfileName {
    font-family: 'Comforter', sans-serif;
+   font-weight: 600;
+   font-size: 15px;
 }
 
 .userName {
-    color: rgb(165, 164, 164);
-    font-family: Arial, Helvetica, sans-serif;
+    color: #75828D;
+    font-size: 15px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-weight: 500;
+
 }
+#more-dot {
+    padding-top: 10px;
+    margin-left: -20px;
+    width: 8%;
+    height: 3%;
+}
+#switchProfile {
+    margin-top: 260px;
+    margin-left: -15px;
+    height: 70px;
+    width: 260px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+#switchProfile:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+/*account manager onclick*/
+
+#accountManager {
+    width: 450px;
+    position: absolute;
+    display: none;
+}
+
+
+#accountInfoLog {
+    display: flex;
+    flex-direction: row;
+}
+
+#userInfosLog {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#userInfosAcc {
+    margin-top: -280px;
+    margin-left: -35px;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 2px 2px  #F8F9FA;
+    border-left: 2px solid #EAEDEE;
+    border-top: 1px solid #EAEDEE;
+}
+
+.profilePic2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#accountInfoLog {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 70px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+#addNewAcc {
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    margin-top: 10px;
+}
+#addNewAcc2 {
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: 'Segoe UI' sans-serif;
+    margin-top: 25px;
+}
+

@@ -25,16 +25,33 @@
                 <button class="menuButton"><a href="#"><img class="menu-img" src="img/profile.png" alt="">Perfil</a></button>
                 <button class="menuButton"><a href="#"><img class="menu-img" src="img/more.png" alt="">Mais</a></button>
             </li>
-         </ul>
-         <button class="tweetButton">Tweetar</button>
-                <div class="profileSelection">
-                    <img class="profilePic" src="img/profile-img.jpg" alt="">
-                        <div id="userInfos">
+        </ul>
+        <button class="tweetButton">Tweetar</button>
+        <button id="switchProfile">
+            <div class="profileSelection" >
+                <img class="profilePic" src="img/profile-img.jpg" alt="">
+                    <div id="userInfos">
+                        <p class="ProfileName">ChrisFFC</p>
+                        <p class="userName">@LoremIpsum</p>
+                    </div>
+                <img id="more-dot" src="img/more-dot.png" alt="">
+            </div>
+        </button>
+        <!-------------account manager----------->
+        <div id="accountManager" >
+                <div id="userInfosAcc">
+                    <div id="accountInfoLog">
+                        <img class="profilePic2" src="img/profile-img.jpg" alt="">
+                        <div id="userInfosLog">
                             <p class="ProfileName">ChrisFFC</p>
                             <p class="userName">@LoremIpsum</p>
                         </div>
-                    <a href="#"><img src="img/more-dot.png" alt=""></a>
+                    </div>
+                    <a href=""><p id="addNewAcc">Adicionar um conta existente</p></a>
+                    <a href=""><p id="addNewAcc2">Sair de @LoremIpsum</p></a>
                 </div>
+        </div>
     </nav>
+<script src="script.js"></script>
 </body>
 </html>
