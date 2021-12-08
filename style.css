@@ -181,3 +181,93 @@ nav img {
     margin-top: 25px;
 }
 
+/*feed Organizer*/
+
+#feedTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 580px;
+    border-right: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    position: fixed;
+}
+
+#feedOrderTitle {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+#feedSparkles {
+    width: 5%;
+}
+/*Tweet*/
+
+#newTweet {
+    margin-left: 32%;
+    width: 580px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid #F2F2F2;
+    padding-top: 60px;
+
+}
+#newTweet img {
+    width: 8%;
+}
+
+#tweetText {
+    width: 90%;
+    height: auto;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    overflow-wrap: break-word;
+}
+
+#sendTweet {
+    margin-left: 15%;
+}
+input::-webkit-input-placeholder {
+    font-size: 19px;
+    line-height: 3;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+#tweetManagement {
+    margin-left: 10%;
+    margin-top: 13px;
+
+}
+
+#tweetManagement img {
+    width: 2rem;
+    
+}
+
+#sendTweet {
+    width: 100px;
+    height: 40px;
+    margin-left: 220px;
+    color: white;
+    background-color: #FF7A01;
+    border-radius: 50px;
+}
+
+#tweetBar {
+    margin-left: 32%;
+    position: absolute;
+    width: 580px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+}

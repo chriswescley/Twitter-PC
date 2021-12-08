@@ -7,7 +7,7 @@ var switchProfile = document.getElementById("switchProfile");
 
 // When the user clicks on the button, open the modal
 switchProfile.onclick = function() {
-    accountManager.style.display = "block";
+    accountManager.style.display == "block";
 }
 
 // When the user clicks anywhere outside of the modal, close it
